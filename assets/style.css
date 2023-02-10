@@ -1,34 +1,43 @@
 * {
     font-family: sans-serif;
 }
+
+/* Header Flexbox */
+
 .main_header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(73, 83, 93);
+    background-color: rgb(44, 48, 53);
     padding: .7%;
     padding-top: 2px;
     padding-left: 0%;
 }
 
+/* Header Name and backround */
+
 .main_header h1 {
     font-size: 500%;
     font-weight: 400;
     color: rgb(63, 62, 62);
-    background-color: rgb(129, 214, 206);
+    background-color: rgb(157, 218, 212);
     padding-left: 7%;
     padding-right: 1%;
     margin-bottom: 1%;
     
 }
+
+/* Header Side References */
+
 .references{
     padding-top: 30px;
     padding-right: 3%;
     padding-inline-start: 0%;
     text-align: center;
 }
+
+
+
 .references li {
-    padding-inline-start: 0px;
-    list-style-type: none;
     display: inline-block;
     text-align: end;
 } 
@@ -40,9 +49,44 @@
     padding-right: 10px;
     padding-left: 10px;
     margin-right: 5px;
-    color: rgb(129, 214, 206);
+    color: rgb(157, 218, 212);
     border-bottom: 4px solid currentColor;
 }
+
+/* Banner Class */
+
+.banner {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/blue_backround9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner p {
+    position: absolute;
+    color: rgb(63, 62, 62);
+    font-size: 300%;
+    background-color: rgb(157, 218, 212);
+    padding: .5%;
+    bottom: 7%;
+    right: 7%;
+}
+
+.references_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 40%;
+    margin-left: 100px;
+    border-right: 5px solid black;  
+}
+
+
+/* Media Query for Header */
 
 @media screen and (max-width: 711px) {
     .main_header {
