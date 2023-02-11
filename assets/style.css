@@ -2,6 +2,12 @@
     font-family: sans-serif;
 }
 
+/* Main element modifier */
+
+main {
+    background-color: aliceblue;
+}
+
 /* Header Flexbox */
 
 .main_header {
@@ -34,8 +40,6 @@
     padding-inline-start: 0%;
     text-align: center;
 }
-
-
 
 .references li {
     display: inline-block;
@@ -75,14 +79,38 @@
     right: 7%;
 }
 
+
+.aboutMe {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.aboutMe h1{
+    color: rgb(40, 74, 85);
+    margin-left: 7%;
+    font-size: 400%;
+    text-align: end;
+    padding-right: 1%;
+    border-right: 6px solid rgb(40, 74, 85);
+    height: 225px;
+}
+
+.aboutMe p {
+    color: rgb(40, 74, 85);;
+    font-size: 150%;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
 .references_left {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
     position: relative;
-    width: 40%;
+    width: 100%;
     margin-left: 100px;
-    border-right: 5px solid black;  
+    background-color: aqua;
 }
 
 
