@@ -5,6 +5,7 @@
 /* Main element modifier */
 
 main {
+    position: relative;
     background-color: aliceblue;
 }
 
@@ -29,7 +30,6 @@ main {
     padding-left: 7%;
     padding-right: 1%;
     margin-bottom: 1%;
-    
 }
 
 /* Header Side References */
@@ -79,44 +79,86 @@ main {
     right: 7%;
 }
 
+/* Main information tags */
 
-.aboutMe {
+
+.info {
     margin-top: 3%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 4%;
 }
 
-.aboutMe h1{
+.info h1{
+    width: 26%;
     color: rgb(40, 74, 85);
-    margin-left: 7%;
     font-size: 400%;
     text-align: end;
     padding-right: 1%;
     border-right: 6px solid rgb(40, 74, 85);
-    height: 225px;
+    height: auto;
 }
 
-.aboutMe p {
+.info p {
+    width: 70%;
+    color: rgb(40, 74, 85);;
+    font-size: 120%;
+    margin-left: 1%;
+    margin-right: 4%;
+}
+
+.info ul {
+    margin-top: 3%;
+    width: 75%;
+}
+
+.info ul li {
+    display: inline;
+    text-align: end;
     color: rgb(40, 74, 85);;
     font-size: 150%;
     margin-left: 3%;
-    margin-right: 10%;
+    margin-right: 5%;
+    border-bottom: 4px solid currentColor;
 }
 
-.references_left {
+.info a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
     display: flex;
-    flex-direction: row;
-    position: relative;
-    width: 100%;
-    margin-left: 100px;
-    background-color: aqua;
+    justify-content: center;
+    background-color: rgb(44, 48, 53);
+    padding: 1%;
+    height: 30%;
+}
+
+footer h1 {
+    font-size: 200%;
+    font-weight: 400;
+    color: rgb(63, 62, 62);
+    background-color: rgb(157, 218, 212);
+}
+
+footer h1::after {
+    content: "❤️";
 }
 
 
 /* Media Query for Header */
 
 @media screen and (max-width: 711px) {
+    .info ul {
+        margin-top: 0%;
+    }
+    .info ul li {
+        font-size: 120%;
+    }
+    .info h1 {
+        font-size: 150%;
+    }
     .main_header {
         flex-direction: column;
     }
