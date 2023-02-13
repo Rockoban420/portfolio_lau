@@ -84,13 +84,15 @@ main {
 
 .info {
     margin-top: 3%;
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 4%;
 }
 
 .info h1{
-    width: 26%;
+    
+    width: 30%;
     color: rgb(40, 74, 85);
     font-size: 400%;
     text-align: end;
@@ -126,6 +128,53 @@ main {
     text-decoration: none;
     color: black;
 }
+
+.info img {
+    display: inline-block;
+    border: 8px solid rgb(157, 218, 212);
+    margin-left: 3%;
+    
+}
+
+.info h2 {
+    position: relative; 
+    display: inline-block;
+    width: 10%;
+    bottom: 10%;
+    right: 20%;
+    text-align: center;
+    background-color: rgb(157, 218, 212);
+}
+.info h3 {
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(157, 218, 212);
+}
+
+
+.bottom_work_container {
+    width: 70%;
+    position: relative;
+    display: inline-block;
+    flex-direction:
+}
+.bottom_work_container img {
+    margin: 3%;
+} 
+/* 
+
+.img_text { 
+    position: relative; 
+    bottom: 10%;
+    left: 10%;
+    font-size: 150%;
+    background-color: aqua;
+} */
+
+
+/* .img_sub {
+    position: absolute;
+} */
 
 footer {
     display: flex;
