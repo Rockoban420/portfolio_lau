@@ -135,7 +135,7 @@ main {
 /* Work Images aligned on screen with a border */
 
 .info img {
-    opacity: 70%;
+    opacity: 80%;
     display: inline-block;
     border: 8px solid rgb(157, 218, 212);
     margin-left: 3%;
@@ -241,7 +241,7 @@ footer h1::after {
         border: 5px solid rgb(157, 218, 212);
     }
     .info h2 {
-        font-size: 1%;
+        font-size: 0.4%;
     }
     .info h4 {
         font-size: 2%;
@@ -255,6 +255,7 @@ footer h1::after {
     }
     .info h1 {
         font-size: 100%;
+        width: fit-content;
     }
     .info p {
         font-size: 100%;
