@@ -165,7 +165,7 @@ main {
     position: absolute;
     background-color: rgb(157, 218, 212);
     left: 3%;
-    top: 32%;
+    top: 30%;
     padding: 1%;
 }
 
@@ -222,6 +222,14 @@ footer h1::after {
 
 
 /* Media Query for whole site */
+@media screen and (max-width: 1220px) {
+    .info h1 {
+        font-size: 150%;
+    }
+    .info h4, h2 {
+        font-size: 100%;
+    }
+}
 
 @media screen and (max-width: 711px) {
     .info iframe {
@@ -230,11 +238,9 @@ footer h1::after {
     .info img {
         border: 5px solid rgb(157, 218, 212);
     }
-
     .info h4, h2 {
         font-size: 30%;
     }
-
     .info ul {
         margin-top: 0%;
     }
