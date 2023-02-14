@@ -235,7 +235,7 @@ footer h1::after {
 @media screen and (max-width: 711px) {
     .info iframe {
         height: auto;
-        width: 60%;
+        width: 50%;
     }
     .info img {
         border: 5px solid rgb(157, 218, 212);
