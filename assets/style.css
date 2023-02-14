@@ -183,7 +183,7 @@ main {
     padding-left: 3%;
     padding: 1%;
     left: -33%;
-    text-align: center;
+    text-align: start;
     background-color: rgb(157, 218, 212);
 }
 
@@ -221,7 +221,8 @@ footer h1::after {
 }
 
 
-/* Media Query for whole site */
+/* Media Queries for whole site */
+
 @media screen and (max-width: 1220px) {
     .info h1 {
         font-size: 150%;
